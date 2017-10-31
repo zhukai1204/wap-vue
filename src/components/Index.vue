@@ -15,32 +15,32 @@ Vue.component(Header.name, Header, Button.name, Button);
         <p>你还在等什么？{{VueQr}}</p>
     </div>
 
-    <vue-qr  text="http://47.95.251.73" height="160" width="160"></vue-qr>
-
-    <mt-button size="large" class="btn" type="danger">点击下载</mt-button>
+    <vue-qr  text="http://47.95.251.73/app/release.apk" height="160" width="160"></vue-qr>
+    <p>目前只支持android用户</p>
+    <a style="text-decoration: none;" href="http://47.95.251.73/app/release.apk" download="release.apk"><mt-button size="large" class="btn" type="danger">点击下载</mt-button></a>
 
     <div class="item">
       <h3 style="margin-bottom:0;">首页</h3>
       <p>有游戏可以选择</p>
-      <img src="../assets/p1.jpg" class="img-p" />
+      <img src="../assets/1.jpg" class="img-p" />
     </div>
 
     <div class="item">
       <h3 style="margin-bottom:0;">充值</h3>
       <p>包括支付宝、银联、微信支付</p>
-      <img src="../assets/p1.jpg" class="img-p" />
+      <img src="../assets/2.jpg" class="img-p" />
     </div>
 
     <div class="item">
       <h3 style="margin-bottom:0;">玩游戏</h3>
       <p>高速服务器，玩的更尽兴</p>
-      <img src="../assets/p1.jpg" class="img-p" />
+      <img src="../assets/31.jpg" class="img-p" />
     </div>
 
     <div class="item">
       <h3 style="margin-bottom:0;">分享</h3>
       <p>好游戏就要与好友一同分享</p>
-      <img src="../assets/p1.jpg" class="img-p" />
+      <img src="../assets/4.jpg" class="img-p" />
     </div>
 
     <div class="footer">
@@ -59,8 +59,8 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
-      bgSrc: 'static/img/b1.e745192.png',
-      logoSrc: 'static/img/b1.e745192.png'
+      bgSrc: '',
+      logoSrc: ''
     }
   }
 }
